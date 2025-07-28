@@ -1,0 +1,9 @@
+.active-link {
+  background-color: #1abc9c;
+  border-radius: 8px;
+  padding: 6px 12px;
+  color: white !important;
+}
+.nav-bg-color{
+    background-color:#2C3E50 ;
+}

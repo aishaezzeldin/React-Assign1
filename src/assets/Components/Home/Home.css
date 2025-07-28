@@ -1,0 +1,34 @@
+
+/* ************************************************************************************************************ */
+
+.home-h2{
+    position: relative;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.home-h2::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    bottom: -30px;
+    left: 250px;
+
+}
+.home-h2::before{
+    content: '';
+    background-color: white;
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    bottom: -30px;
+    left: 60px;
+
+}
+
+.home-bg-color{
+      background-color: #1abc9c;
+}

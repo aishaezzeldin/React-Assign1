@@ -1,0 +1,56 @@
+.Portfolio-h2::after{
+    content: '';
+    background-color: #2C3E50;
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    top: 220px;
+    left: 53%;
+}
+.Portfolio-h2::before{
+    content: '';
+    background-color:#2C3E50;
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    top: 220px;
+    right: 53%;
+}
+
+.img-layer{
+    width: 400px;
+    background-color: #1abc9c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.6s;
+}
+.img-item{
+    position: relative;
+}
+
+.plus-prop{
+    font-size: 100px;
+    color: white;
+}
+
+.img-item:hover .img-layer {
+    opacity: 0.9;
+}
+
+.modal-content {
+
+    border: none;
+    background-color: transparent;
+}
+
+.modal-body{
+
+    padding: 0;
+}
+
+.Port-main-color{
+    --main-color: #2C3E50;
+}
