@@ -17,7 +17,7 @@ const router = createHashRouter([
       { path: "contact", element: <Contact /> },
     ],
   },
-  { path: "*", element: <h5>404 - Page Not Found</h5> },
+  // { path: "*", element: <h5>404 - Page Not Found</h5> },
 ]);
 
 export default function App() {
